@@ -1,7 +1,6 @@
 ---
 
 postfix_enabled: yes # The role is enabled
-
 postfix_smtpd_use_tls: yes
 postfix_myhostname: "{{inventory_hostname}}"
 postfix_myorigin: $myhostname
